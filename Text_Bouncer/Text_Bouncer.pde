@@ -211,7 +211,7 @@ void initialiseUI(){
   //Adds a dropdown box for user selection of font
   fontSelect = cp5.addScrollableList("fontSelect").setBroadcast(false)
                .setPosition(900, 300)
-               .setSize(300, 250)
+               .setSize(300, 150)
                .setColorBackground(0)
                .setColorActive(#C4C4C4)
                .setColorForeground(#AFAFAF)
@@ -230,7 +230,7 @@ void initialiseUI(){
               .setCaptionLabel("")
               .setColorBackground(0)
               .setColorActive(#C4C4C4)
-              .setPosition(1000,450)
+              .setPosition(980,500)
               .setRange(-30,10)
               .setRadius(60)
               .setFont(font)
